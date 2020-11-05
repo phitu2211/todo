@@ -7,6 +7,39 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to install
+**Step 1:** Clone project<br>
+
+`git clone https://github.com/phitu2211/todo.git`
+
+**Step 2:**<br>
+
+`cd todo`
+
+**Step 3:** Install library<br>
+
+`composer install`
+
+**Step 4:** Copy file .env<br>
+
+`cp .env.example .env`
+
+**Step 5:** Generate key<br>
+
+`php artisan key:generate`
+
+**Step 6:** Run migrate<br>
+
+`php artisan migrate`
+
+**Step 7:** Seed data<br>
+
+`php artisan db:seed`
+
+**Step 8:** Run project<br>
+
+`php artisan serve`
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -59,3 +92,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
